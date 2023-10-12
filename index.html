@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My website</title>
+  <link rel="stylesheet" href="css/style.css">
+   <!-- font awesome cdn link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-1">
+        <a href="#" class="logo"> <em class="fas fa-book"></em> news</a>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="icons">
+            <!-- using icons from fontaewsome web -->
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <div id="order-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </div>   
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#featured">featured</a>
+                <a href="#yourreview">reviews</a>
+               
+            </nav>
+        </div>
+    
+  </header>
+
+  <main>
+    
+        <div class="yourreview-container">
+
+            <section class="yourreview" id="yourreview">
+        
+                <form action="view.php" method="post">
+                    <h3>Sharing your experience</h3>
+                    <input type="email" name="" placeholder="enter your email" id="" class="box" required>
+                    <label for="rv"></label>
+                    <textarea id="rv"name='rv' placeholder="Your Review" cols="30" rows="5" class="box" required></textarea>
+                    <input type="submit" value="submit" class="btn">
+                </form>
+            
+            </section>
+        
+        </div>
+    
+  </main>
+
+  <footer>
+    
+    <!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Toronto </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Calgary </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Vancouver </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Ottawa </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> jaycee@gmail.com </a>
+            <img src="img/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit"> created by <span>Tran</span> | all rights reserved! </div>
+
+</section>
+
+  </footer>
+</body>
+</html>
